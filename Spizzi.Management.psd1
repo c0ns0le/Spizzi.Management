@@ -15,6 +15,9 @@
         'Resources/Management.Formats.ps1xml'
     )
     FunctionsToExport  = @(
+        'Add-FileExplorerNamespace'
+        'Get-FileExplorerNamespace'
+        'Remove-FileExplorerNamespace'
     )
     CmdletsToExport    = @()
     VariablesToExport  = @()

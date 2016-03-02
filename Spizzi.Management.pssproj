@@ -34,6 +34,10 @@
     <Folder Include="Tests\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\FileExplorerNamespace.ps1" />
+    <Compile Include="Functions\Add-FileExplorerNamespace.ps1" />
+    <Compile Include="Functions\Get-FileExplorerNamespace.ps1" />
+    <Compile Include="Functions\Remove-FileExplorerNamespace.ps1" />
     <Compile Include="Resources\Management.Formats.ps1xml" />
     <Compile Include="Resources\Management.Types.ps1xml" />
     <Compile Include="Scripts\build.ps1" />
